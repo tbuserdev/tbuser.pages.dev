@@ -1,0 +1,26 @@
+---
+import { getCollection } from "astro:content";
+export async function getStaticPaths() {
+  const projectEntries = await getCollection("projects");
+  return projectEntries.map((entry) => ({
+    params: { slug: entry.slug },
+    props: { entry },
+  }));
+}
+const { entry } = Astro.props;
+const { Content } = await entry.render();
+
+import Layout from "../../layouts/Layout.astro";
+import HeroProjects from "../../components/sections/HeroProjects.astro";
+import Footer from "../../components/sections/Footer.astro";
+---
+
+<Layout title="Project">
+  <HeroProjects project={entry.data} />
+  <article
+    class="prose font-sans text-primary prose-headings:mt-12 prose-headings:font-serif prose-headings:text-xl prose-headings:font-medium prose-headings:italic prose-headings:text-primary"
+  >
+    <Content />
+  </article>
+  <Footer />
+</Layout>

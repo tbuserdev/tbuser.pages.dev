@@ -1,0 +1,99 @@
+---
+import { Image } from "astro:assets";
+import astro from "../../assets/icons/astro.svg";
+import go from "../../assets/icons/go.svg";
+import python from "../../assets/icons/python.svg";
+import react from "../../assets/icons/react.svg";
+import svelte from "../../assets/icons/svelte.svg";
+import typescript from "../../assets/icons/typescript.svg";
+import tailwind from "../../assets/icons/tailwind.svg";
+import tauri from "../../assets/icons/tauri.svg";
+import supabase from "../../assets/icons/supabase.svg";
+import firebase from "../../assets/icons/firebase.svg";
+import expo from "../../assets/icons/expo.svg";
+import sqllite from "../../assets/icons/sqllite.svg";
+---
+
+<section class="space-y-3">
+  <h2 class="font-serif text-xl font-medium italic text-primary">Skills</h2>
+  <div>
+    <div class="flex -translate-x-2 space-x-2 p-2">
+      <Image
+        src={react}
+        quality="mid"
+        alt="react logo"
+        class="aspect-square w-14 rounded-lg bg-secondaryLight object-contain p-3 grayscale transition-all duration-300 hover:grayscale-0"
+      />
+      <Image
+        src={svelte}
+        quality="mid"
+        alt="svelte logo"
+        class="aspect-square w-14 rounded-lg bg-secondaryLight object-contain p-3 grayscale transition-all duration-300 hover:grayscale-0"
+      />
+      <Image
+        src={astro}
+        quality="mid"
+        alt="astro logo"
+        class="aspect-square w-14 rounded-lg bg-secondaryLight object-contain p-3 grayscale transition-all duration-300 hover:grayscale-0"
+      />
+      <Image
+        src={tailwind}
+        quality="mid"
+        alt="tailwind logo"
+        class="aspect-square w-14 rounded-lg bg-secondaryLight object-contain p-3 grayscale transition-all duration-300 hover:grayscale-0"
+      />
+    </div>
+    <div class="flex -translate-x-2 space-x-2 p-2">
+      <Image
+        src={typescript}
+        quality="mid"
+        alt="typescript logo"
+        class="aspect-square w-14 rounded-lg bg-secondaryLight object-contain p-3.5 grayscale transition-all duration-300 hover:grayscale-0"
+      />
+      <Image
+        src={python}
+        quality="mid"
+        alt="python logo"
+        class="aspect-square w-14 rounded-lg bg-secondaryLight object-contain p-3 grayscale transition-all duration-300 hover:grayscale-0"
+      />
+      <Image
+        src={go}
+        quality="mid"
+        alt="go logo"
+        class="aspect-square w-14 rounded-lg bg-secondaryLight object-contain p-1 grayscale transition-all duration-300 hover:grayscale-0"
+      />
+      <Image
+        src={tauri}
+        quality="mid"
+        alt="tauri logo"
+        class="aspect-square w-14 rounded-lg bg-secondaryLight object-contain p-3 grayscale transition-all duration-300 hover:grayscale-0"
+      />
+    </div>
+    <div class="flex -translate-x-2 space-x-2 p-2">
+      <Image
+        src={supabase}
+        quality="mid"
+        alt="supabase logo"
+        class="aspect-square w-14 rounded-lg bg-secondaryLight object-contain p-3 grayscale transition-all duration-300 hover:grayscale-0"
+      />
+      <Image
+        src={firebase}
+        quality="mid"
+        alt="firebase logo"
+        class="aspect-square w-14 rounded-lg bg-secondaryLight object-contain p-3 grayscale transition-all duration-300 hover:grayscale-0"
+      />
+      <Image
+        src={sqllite}
+        quality="mid"
+        alt="tauri logo"
+        class="aspect-square w-14 rounded-lg bg-secondaryLight object-contain p-3 grayscale transition-all duration-300 hover:grayscale-0"
+      />
+      <Image
+        src={expo}
+        quality="mid"
+        alt="expo logo"
+        class="aspect-square w-14 rounded-lg bg-secondaryLight object-contain p-3 grayscale transition-all duration-300 hover:grayscale-0"
+      />
+    </div>
+  </div>
+</section>

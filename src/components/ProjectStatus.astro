@@ -1,0 +1,27 @@
+---
+const { status } = Astro.props;
+---
+
+{
+  status === "Archiviert" && (
+    <span class="inline-flex items-center rounded border border-green-500 bg-green-100 px-2.5 py-0.5 text-xs font-medium text-green-800 dark:bg-background  dark:text-green-600">
+      {status}
+    </span>
+  )
+}
+
+{
+  status === "in Entwicklung" && (
+    <span class="inline-flex items-center rounded border border-yellow-500 bg-yellow-100 px-2.5 py-0.5 text-xs font-medium text-yellow-800 dark:bg-background dark:text-yellow-400">
+      {status}
+    </span>
+  )
+}
+
+{
+  status === "in Planung" && (
+    <span class="inline-flex items-center rounded border border-blue-500 bg-blue-100 px-2.5 py-0.5 text-xs font-medium text-blue-800 dark:bg-background dark:text-blue-400">
+      {status}
+    </span>
+  )
+}
