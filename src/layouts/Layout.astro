@@ -1,24 +1,38 @@
 ---
 import "../assets/global.css";
 import Nav from "../components/sections/Nav.astro";
-import { ViewTransitions } from "astro:transitions";
+import { SEO } from "astro-seo";
 
 interface Props {
   title: string;
+  description: string;
 }
 
-const { title } = Astro.props;
+const { title, description } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
   <head data-theme="light">
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
+
+    <SEO
+      title={title}
+      description={description}
+      openGraph={{
+        basic: {
+          title: title,
+          url: "https://tbuser.pages.dev",
+          image:
+            "https://tbuser.pages.dev/_astro/lorelei_pb.14RwDYXQ_1SY9yj.webp",
+          type: "Personal Portfolio",
+        },
+      }}
+    />
     <script>
       const currentTheme =
         localStorage.getItem("theme") ||
@@ -29,8 +43,9 @@ const { title } = Astro.props;
       if (currentTheme === "dark") {
         document.documentElement.classList.add("dark");
       }
-    </script>
-  </head>
+    </script></head
+  >
+
   <body class="mx-auto max-w-[800px] space-y-24 px-10">
     <Nav />
     <slot />

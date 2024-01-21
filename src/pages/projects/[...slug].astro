@@ -15,7 +15,7 @@ import HeroProjects from "../../components/sections/HeroProjects.astro";
 import Footer from "../../components/sections/Footer.astro";
 ---
 
-<Layout title="Project">
+<Layout title={entry.data.title} description={entry.data.description}>
   <HeroProjects project={entry.data} />
   <article
     class="prose font-sans text-primary prose-headings:mt-12 prose-headings:font-serif prose-headings:text-xl prose-headings:font-medium prose-headings:italic prose-headings:text-primary"
