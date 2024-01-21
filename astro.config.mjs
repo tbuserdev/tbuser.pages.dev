@@ -1,7 +1,15 @@
 import { defineConfig } from "astro/config";
 import tailwind from "@astrojs/tailwind";
+import robotsTxt from "astro-robots-txt";
 
-// https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind({ config: { applyBaseStyles: false } })],
+  site: "https://tbuser.pages.dev",
+  integrations: [
+    tailwind({
+      config: {
+        applyBaseStyles: false,
+      },
+    }),
+    robotsTxt(),
+  ],
 });
