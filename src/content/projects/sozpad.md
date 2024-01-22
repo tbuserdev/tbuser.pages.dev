@@ -8,22 +8,24 @@ status: "in Planung"
 github: "https://github.com"
 ---
 
+Als Zivildienstleistender in einer Primarschule bekommt man viele Arbeitsabläufe von verschiedenen Lehrpersonen und Fachkräften mit. In vielen Bereichen besteht grosses Potential Prozesse zu optimieren und vor allem zu digitalisieren.
+
 # Die Idee
 
-SozPad ist eine Webapplikation, welche die sozialpädagogische Datenerfassung und Verwaltung vereinfachen soll. Die Applikation soll es ermöglichen, dass die Sozialpädagogen ihre Daten auf einfache Weise erfassen können. Die Daten sollen dann in einer Datenbank gespeichert werden und von dort aus weiterverarbeitet werden können. Die Daten sollen auch in einer mobilen Applikation verfügbar sein, damit die Sozialpädagogen auch unterwegs die Daten erfassen können.
+SozPad ist primär eine Webapplikation, die das Erfassen von Daten von abweichenden sozialen Interaktionen der Schüler vereinfachen soll. Unterstützt wird diese mit einer mobilen App für iOS und Android, sodass alle Beteiligten Fachpersonen einfach und effizient eine besondere Situation erfassen können. Dies ermöglicht eine dichtere Dokumentation der sozialen Brandherde in Schulklassen.
 
-# Problemstellung
+# Das Problem
 
-Die Sozialpädagogen haben aktuell keine Möglichkeit, ihre Daten auf einfache Weise zu erfassen. Die Daten werden aktuell in einem Excel-File erfasst, welches dann an die Schulleitung weitergeleitet wird. Die Schulleitung muss dann die Daten in ein anderes Excel-File übertragen, damit die Daten weiterverarbeitet werden können. Dieser Prozess ist sehr aufwändig und fehleranfällig.
+Sozialpädagogen haben aktuell keine Möglichkeit ihre Beobachtungen effizient und organisiert digital zu erfassen. Viele schreiben ihre Beobachtungen und Notizen auf Papier, die später von Hand digitalisiert werden. Dies ist notwendig, sodass wichtigen Informationen im Team geteilt werden können. Dabei können viele unscheinbare Details wie der Ort, die Zeit oder allfällige Mit-Akteure vergessen werden.
 
-# Lösung
+# Lösungsansätze
 
-Die Lösung ist eine Webapplikation, welche die Daten in einer Datenbank speichert. Die Daten können dann von der Schulleitung weiterverarbeitet werden. Die Daten sollen auch in einer mobilen Applikation verfügbar sein, damit die Sozialpädagogen auch unterwegs die Daten erfassen können. Die Daten sollen dann in einer Datenbank gespeichert werden und von dort aus weiterverarbeitet werden können. Die Daten sollen auch in einer mobilen Applikation verfügbar sein, damit die Sozialpädagogen auch unterwegs die Daten erfassen können.
+1. Alle Daten werden in einer zentralisierten Datenbank gespeichert. Somit haben alle im Team Zugriff auf die essentiellen Informationen der Sozialpädagogen. Dies ermöglicht auch die Datenerfassung von Lehrpersonen und Zivildienstleistenden, die im heutigen System nicht bei der Dokumentation mit einbezogen sind.
+2. Die Daten werden per Formular erhoben, somit werden Details die heutzutage vergessen gehen.
+3. Das Smartphone befindet sich jederzeit griffbereit und muss nicht speziell mit sich herumgetragen werden.
 
-# Technologien
+## Tech-Stack
 
-- SvelteKit
-- TailwindCSS
-- Supabase
-- Expo
-- React Native
+- Webapplikation: NextJS, Tailwind
+- Mobile App: React Native (Expo), Nativewind
+- Backend: Supabase (Auth & Database)
