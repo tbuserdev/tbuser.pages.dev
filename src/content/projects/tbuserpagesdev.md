@@ -1,7 +1,7 @@
 ---
 featured: false
 title: "tbuser.pages.dev"
-description: "Erstellung einer eigenen Website"
+description: "Persönliches Entwicklerportfolio von Tim Buser"
 date: 2024-01-21
 technologies: ["Astro", "TailwindCSS", "Cloudflare Pages"]
 status: "in Entwicklung"
