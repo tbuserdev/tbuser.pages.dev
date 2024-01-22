@@ -5,14 +5,6 @@ description: "Automatisierte Kalendereinträge für Microsoft Office Umgebungen"
 date: 2023-11-31
 technologies: ["SvelteKit", "TailwindCSS"]
 status: "Archiviert"
-github: "https://github.com"
-link: "https://github.com"
+github: "https://github.com/tbuserdev/PRIMMS_MS"
+link: "https://primms.vercel.app"
 ---
-
-# Problemstellung
-
-WRITE A TEXT HERE
-
-# Lösung
-
-WRITE A TEXT HERE

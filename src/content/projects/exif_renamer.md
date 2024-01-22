@@ -1,5 +1,5 @@
 ---
-featured: true
+featured: false
 title: "EXIF-AUTO-RENAMER"
 description: "Automatisierte Umbenennung von Fotos nach Datum und Zeit."
 date: 2022-12-31
