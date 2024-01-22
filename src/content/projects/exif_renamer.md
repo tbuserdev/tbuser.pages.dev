@@ -1,18 +1,18 @@
 ---
 featured: true
-title: "Foto-Renamer"
+title: "EXIF-AUTO-RENAMER"
 description: "Automatisierte Umbenennung von Fotos nach Datum und Zeit."
 date: 2022-12-31
 technologies: ["Go", "Fyne UI Toolkit"]
 status: "Archiviert"
 github: "https://github.com"
-link: "https://github.com"
 ---
 
-# Problemstellung
+Meine Familie und ich machen viele Fotos. Im Laufe der Jahre haben sich unzählige Fotos angehäuft, die mit irgendwelchen zufälligen Dateinamen versehen wurden.
 
-WRITE A TEXT HERE
+Ich habe eine Software programmiert, die die Fotografien mithilfe der im Foto eingebundenen EXIF-Daten (Norm, die Formate für Bilder und Ton, zusätzliche Tags festlegt, die von Digitalkameras verwendet werden (Quelle: Wikipedia.org)) nach einem vorher definierten Muster umbenennt.
 
-# Lösung
+## Tech-Stack
 
-WRITE A TEXT HERE
+- Frontend: Fyne.io
+- Backend: Go
