@@ -5,7 +5,7 @@ description: "Vereinfachte Verwaltung von Mobilgeräten für eine Primarschule"
 date: 2023-12-31
 technologies: ["NextJS", "React", TailwindCSS", "Tauri", "SQLite"]
 status: "in Entwicklung"
-github: "https://github.com"
+github: "https://github.com/tbuserdev/PRIMMS_MDM"
 ---
 
 An einer Primarschule gibt es viele unterschiedliche Bereiche in der IT-Verwaltung. Einer davon ist die Verwaltung von iPads für die Schülerinnen und Schüler.

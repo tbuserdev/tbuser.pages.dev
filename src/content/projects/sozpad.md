@@ -5,7 +5,7 @@ description: "Sozialpädagogische Datenerfassung und Verwaltung"
 date: 2024-01-20
 technologies: ["SvelteKit", "TailwindCSS", "Supabase", "Expo", "React Native"]
 status: "in Planung"
-github: "https://github.com"
+github: "https://github.com/tbuserdev/SozPad-Mobile"
 ---
 
 Als Zivildienstleistender in einer Primarschule bekommt man viele Arbeitsabläufe von verschiedenen Lehrpersonen und Fachkräften mit. In vielen Bereichen besteht grosses Potenzial, Prozesse zu optimieren und vor allem zu digitalisieren.

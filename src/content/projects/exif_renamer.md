@@ -5,7 +5,7 @@ description: "Automatisierte Umbenennung von Fotos nach Datum und Zeit."
 date: 2022-12-31
 technologies: ["Go", "Fyne UI Toolkit"]
 status: "Archiviert"
-github: "https://github.com"
+github: "https://github.com/tbuserdev/EXIF-AUTO-RENAMER"
 ---
 
 Meine Familie und ich machen viele Fotos. Im Laufe der Jahre haben sich unzählige Fotos angehäuft, die mit irgendwelchen zufälligen Dateinamen versehen wurden.
