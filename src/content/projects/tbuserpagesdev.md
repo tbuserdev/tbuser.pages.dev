@@ -1,5 +1,5 @@
 ---
-featured: true
+featured: false
 title: "TBUSER.PAGES.DEV"
 description: "Erstellung einer eigenen Website"
 date: 2024-01-21
