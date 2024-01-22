@@ -1,5 +1,5 @@
 ---
-featured: false
+featured: true
 title: "PRIMMS - Schuldatenverwaltung (Supabase)"
 description: "Verwaltung Schulinterner Daten via Webapplikation"
 date: 2023-10-31
